@@ -3,12 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyApcA8lrxAJvnVdknPOsKBAPze7m0jB8Uw",
-  authDomain: "chat-with-pdf-challenge.firebaseapp.com",
-  projectId: "chat-with-pdf-challenge",
-  storageBucket: "chat-with-pdf-challenge.appspot.com",
-  messagingSenderId: "63913719761",
-  appId: "1:63913719761:web:1b2bea43afcdfcdae1d2f0",
+  apiKey: "AIzaSyBCUnhmWggraFjd2nvI-0Ivk4-eSXCRkgE",
+  authDomain: "chat-pdf-57218.firebaseapp.com",
+  projectId: "chat-pdf-57218",
+  storageBucket: "chat-pdf-57218.appspot.com",
+  messagingSenderId: "1079660045742",
+  appId: "1:1079660045742:web:3bfa70c11c1198abd8143f",
+  measurementId: "G-P3CB06KF0L"
 };
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
